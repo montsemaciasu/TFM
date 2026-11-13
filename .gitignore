@@ -4,7 +4,9 @@
 !.env.template
 
 # Datos descargados (más de 100 MB; se regeneran con descargar_datos.py)
-data/
+# Se excluye todo data/ salvo las respuestas del LLM
+data/*
+!data/senales_llm_simple/
 
 # Caché de Python y de Jupyter
 __pycache__/
