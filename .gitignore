@@ -1,0 +1,12 @@
+# Claves y credenciales: nunca se suben
+.env
+.env.*
+!.env.template
+
+# Datos descargados (más de 100 MB; se regeneran con descargar_datos.py)
+data/
+
+# Caché de Python y de Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
