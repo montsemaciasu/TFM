@@ -7,6 +7,7 @@
 # Se excluye todo data/ salvo las respuestas del LLM
 data/*
 !data/senales_llm_simple/
+!data/contexto_gap40.csv
 
 # Caché de Python y de Jupyter
 __pycache__/
